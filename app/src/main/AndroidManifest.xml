@@ -13,6 +13,9 @@
         android:theme="@style/Theme.LandApp_Genie"
         tools:targetApi="31">
         <activity
+            android:name=".ViewRoomDetail"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
